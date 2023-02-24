@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 17b</title>
+        <style>
+        p{margin-bottom: 5px;}
+        </style>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="bs">Browser:</label>
+        <select name="browser" id="bs" >
+            <option value="0"></option>
+            <option value="1">UC Browser</option>
+            <option value="2">Firefox Fast & Private Browser</option>
+            <option value="3">Chome</option>
+        </select>
+        </p>
+        
+       <p>
+        <label for="name">Username:</label>
+        <input type="text" name="txtname" size="20" maxlength="20" id="name">
+       </p>
+            
+            
+         <p>
+            <label for="ect">Encryption</label>
+            <select name="Encryption" id="ect">
+                <option value="1">2048 (High Grade)</option>
+                <option value="2">1080</option>
+                <option value="3">720</option>
+            </select>
+        </p>
+
+        <p>
+            0<input type="range" name="range" min="0" max="100" id="range">100
+        </p>
+
+        <p>
+            <input type="text" name="text " value="50" id="a">
+        </p>
+       <p>
+            <label for="date">Birthday:</label>
+            <input type="date" name="date"  id="date">
+       </p>
+       <p>
+            <label for="color">Select your favorite color:</label>
+            <input type="color" name="color" id="color">
+       </p>
+       <p>
+            <label for="month">Birthday (month and year)</label>
+            <input type="month" name="monthYear" id="month" size="20" maxlength="20" >
+       </p>
+       <p>
+            <label for="week">Select a week:</label>
+            <input type="week" name="week" size="20" maxlength="20" id="week">
+       </p>
+       <p>
+            <label for="time">Select a time:</label>
+            <input type="time" name="time" size="20" maxlength="20" id="time">
+       </p>
+       <p>
+           <label for="dt">Birthday (date and time):</label>
+            <input type="text" name="text1" size="20" maxlength="20" id="dt">
+       </p>
+       <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" size="20" maxlength="20" id="email">
+       </p>
+       <p>
+            <label for="search">Search Google</label>
+            <input type="search" name="search" size="20" maxlength="20" id="search">
+       </p>
+       <p>
+            <label for="tel">Telephone:</label>
+            <input type="tel" name="tel" size="20" maxlength="20" id="tel">
+       </p>
+       <p>
+            <label for="ho">Add your homepage:</label>
+            <input type="text" name="homepage" size="20" maxlength="20" id="hp">
+       </p>
+       <p>
+            <input type="submit" name="submit" value="Submit" id="sm">
+
+       </p>
+       <p>
+            <b>Note: </b>The datalist tag is not supported in Safari or IE9 (and earlier).
+       </p>
+    </form>
+</body>
+</html>

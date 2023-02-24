@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17:Thao tác với form</title>
+    <style>
+        h1{text-align: center;}
+        div{text-align: center;}
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Survey Form</h1>
+        <p>
+            If you are interested in purchasing onw or more of our products, before ordering please complete <br>
+            some or all of the following survey for our maketing department. Ansering any question is <br>
+            optional, and all information will be kept strictly confidential. Thank you very much for your time ! <br>
+        </p>
+        <ol type="1">
+            <li>
+                <label for="name">What is your name ? <br></label>
+                <input type="text" name="txtname" value="" size="30" maxlength="30" id="name">
+            </li>
+            <li>
+                <label for="date">What is your date of birth ? <br></label>
+                <label for="month">Month:</label>
+                <select name="month" id="month">
+                    <option value="1">January</option>
+                    <option value="2">Februaru</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                </select>
+                <label for="date">Date:</label>
+                <select name="date" id="date">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="1">2001</option>
+                    <option value="2">2002</option>
+                    <option value="3">2003</option>
+                    <option value="4">2004</option>
+                    <option value="5">2005</option>
+                </select>
+            </li>
+            <li>
+                <label for="address">What is your mailing address (if you would like to have a hard copy of our catalog sent to <br> you)? <br></label>
+                <textarea name="address" id="address" cols="40" rows="4" >Number/P.O. Box/Route:  
+Street/Avenue/Road: 
+City:
+State/Zip:
+                </textarea>
+            </li>
+            <li>
+                <label for="email" >What is your email address? <br></label>
+                <input type="email" name="email" value="" size="30" maxlength="30" id="email">
+            </li>
+            <li>
+                <label for="">Have you viewed our online product catalog? <br></label>
+                <input type="radio" name="radio" value="" id="yes" checked> 
+                <label for="yes">Yes</label>
+                <input type="radio" name="radio" value="" id="No">
+                <label for="No">No</label>
+            </li>
+            <li>
+                <label for="">If so, what product(s), besides the one you are ordering, might you be interested in purchasing <br> in the future? (Check all that apply) <br></label>
+                <input type="checkbox" name="checkbox1" id="cb1">
+                <label for="cb1">VCR <br></label>
+                
+                <input type="checkbox" name="checkbox2" id="cb2">
+                <label for="cb2">Big screen TV <br></label>
+
+                <input type="checkbox" name="checkbox3" id="cb3">
+                <label for="cb3">Audio Equipment <br></label>
+
+                <input type="checkbox" name="checkbox4" id="cb4">
+                <label for="cb4">Video Equipment <br></label>
+
+                <input type="checkbox" name="checkbox5" id="cb5">
+                <label for="cb5">Camera Equipment <br></label>
+
+                <input type="checkbox" name="checkbox6" id="cb6" checked>
+                <label for="cb6">Other</label>
+                <input type="text" name="other" value="Please List" size="30" maxlength="30">
+
+            </li>
+            <li>
+                <label for="qs">Do you have any questions, comments or suggestions before proceeding to the Oder Form ? <br></label>
+                <textarea name="question" id="qs" cols="50" rows="5">Your Input:</textarea>
+            </li>
+            <div>
+                
+                <input type="submit" name="submit" value="Send Form" id="sub">
+                <input type="reset" name="reset" value="Clear Form" id="clear">
+            </div>
+        </ol>
+    </form>
+</body>
+</html>
