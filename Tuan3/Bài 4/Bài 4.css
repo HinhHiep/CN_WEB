@@ -1,0 +1,35 @@
+.container {
+    width: 450px;
+    height: 400px;
+    box-shadow: 0 0 10px #222;
+}
+
+.heading {
+    margin-top: 0;
+    text-align: center;
+    color: rgb(173, 17, 17);
+    font-size: 20px;
+}
+
+table {
+    border-color: rgb(175, 9, 9);
+    border-collapse: collapse;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+}
+
+tr > td:nth-child(2) {
+    text-align: right;
+}
+
+.title {
+    background-color: rgb(173, 17, 17);
+    font-weight: 600;
+    font-size: 18;
+    color: white;
+}
+
+.chan > td {
+    background-color:lightgray;
+}

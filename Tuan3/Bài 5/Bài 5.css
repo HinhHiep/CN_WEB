@@ -1,0 +1,7 @@
+.container {
+    width: 800px;
+    height: 800px;
+    background-image: url(./flower.jpg) url(./flower1.jpg);
+    background-position: right bottom, left top ;
+    background-repeat: no-repeat, no-repeat;
+}

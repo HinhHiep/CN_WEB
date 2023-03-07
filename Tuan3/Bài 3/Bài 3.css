@@ -1,0 +1,11 @@
+tr:first-child {
+    background-color:lightgray;
+}
+
+tr:last-child {
+    background-color:lightgray;
+}
+
+table {
+    margin-bottom: 20px;
+}
