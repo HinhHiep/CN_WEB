@@ -1,0 +1,261 @@
+.container{
+    display: grid;
+    grid-template-columns: 7% 60% 33%;
+    grid-template-rows: 300px 500px;
+}
+/*------------left---------*/
+.left{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.img_left{
+    width: 50px;
+    margin: 10px;
+}
+.left_top_chat{
+    display: flex;
+}
+#n{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 55px;
+}
+
+
+/*----------center----------*/
+
+
+.center{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.cen_tile_met{
+    display: flex;
+    justify-content: space-between;
+}
+#time{
+    color: rgb(236, 60, 89);
+    margin-right: 10px;
+}
+.met_time{
+    border-style: solid;
+    border-color: rgb(236, 60, 89);
+    border-radius: 50px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(236, 60, 89);
+    margin-top: 20px;
+}
+#user{
+    color:white;
+    background-color: rgb(236, 60, 89);
+    margin-right: 10px;
+}
+.internal{
+    background-color: rgb(236, 60, 89);
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px;
+}
+.cen_internal{
+    display: flex;
+    justify-items: center;
+}
+.time1{
+    margin-left: 5px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.cen_tile{
+    margin-bottom: 30px;
+}
+
+
+#benjamin{
+    color: green;
+    margin-right: 5px;
+}
+.pic_ben {
+    background-color: gray;
+    width: 160px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.cen_pic_benjamin{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 740px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.cen_pic{
+    display: flex;
+    margin-bottom: 20px;
+}
+#pic_de{
+    color: green;
+}
+.pic_name{
+    background-color: gray;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.detail1_infor{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 220px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.detail1{
+    display: flex;
+}
+.cen_pic_detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cen_action{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#bt_end{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+.img_action{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+
+
+/*-----------RIGHT----------*/
+.right1,.right2{
+    margin-left: 50px;
+}
+.par_number{
+    background-color: pink;
+    color: rgb(236, 60, 89);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.tile{
+    display: flex;
+    justify-items: center;
+}
+.participants{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.bt_add{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(236, 60, 89);
+    color: rgb(236, 60, 89);
+    margin-top: 28px;
+}
+#ellipsis{
+    color: gray;
+}
+.detail_action{
+    display: flex;
+    height: 20px;
+    margin-top: 7px;
+}
+.icon_ellipsis{
+    margin-top: 3px;
+}
+.img_de_action{
+    margin-right: 10px;
+}
+.par_detail{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 15px;
+}
+#img_chu{
+    margin-right: 10px;
+}
+.chat_detail{
+    background-color:rgb(241, 241, 241);
+    width: 300px;
+    height: 40px;
+    text-align: justify;
+    padding: 15px;
+    margin-left: 50px;
+}
+.chat_detail1{
+    display: flex;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+}
+#input{
+    border: none;
+    background-color:rgb(241, 241, 241);
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.add_typing{
+    display: flex;
+    justify-items: center;
+}
+.icon_smile{
+position: absolute;
+margin-left: 270px;
+margin-top: 20px;
+}
+#img_send{
+    margin-top: 0px;
+}
+.chat1{
+    margin-bottom: 20px;
+}

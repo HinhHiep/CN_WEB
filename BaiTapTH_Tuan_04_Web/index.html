@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">  
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!--LEFT-->
+        <div class="left">
+            <div class="left_top">
+                <img src="./Picture/logo.png" alt="" class="img_left">
+                <img src="./Picture/home.png" alt="" class="img_left">
+                <div class="left_top_chat">
+                    <img src="./Picture/chatting.png" alt="" class="img_left">
+                    <div id="n">N</div>
+                </div>
+                
+                <img src="./Picture/calender.png" alt="" class="img_left">
+                <img src="./Picture/cam.png" alt="" class="img_left">
+                <img src="./Picture/user.png" alt="" class="img_left">
+            </div>
+            <div class="left_bottom">
+                <img src="./Picture/avatar.png" alt="" class="img_left">
+                <img src="./Picture/setting.png" alt="" class="img_left">
+            </div>
+        </div>
+        <!--CENTER-->
+        <div class="center">
+            <div class="cen_tile">
+                <div class="cen_tile_met">
+                    <h1>Meeting tile</h1>
+                    <div class="met_time">
+                        <span class="fa fa-circle" id="time"></span>12:00
+                    </div>    
+                </div>
+                <div class="cen_internal">
+                    <div class="internal">
+                        <span class="fa fa-user-circle" id="user"></span>Internal
+                    </div>
+                    <div class="time1">
+                        <img src="./Picture/calender_small.png" alt="" width="20px">
+                    </div>
+                    <div class="time1">Sep 02, 2022</div>
+                    <div class="time1">|</div>
+                    <div class="time1">08:00 - 09:00 AM</div>
+                </div>
+            </div>
+            <div class="cen_pic">
+                <img src="./Picture/img_big.png" alt="" class="img_big" width="790px">
+                <div class="cen_pic_benjamin">
+                    <div class="pic_ben">
+                        <span class="fa fa-circle" id="benjamin"></span>
+                        Benjamin Crawford
+                    </div>
+                    <img src="./Picture/mic_color.png" alt="">
+                </div>
+            </div>
+            <div class="cen_pic_detail">
+                <div class="detail1">
+                    <img src="./Picture/img2.png" alt="" width="240px">
+                    <div class="detail1_infor">
+                        <div class="pic_name">
+                            <span class="fa fa-circle fa-2xs" id="pic_de"> </span>
+                            Chistian Scott
+                        </div>
+                        <img src="./Picture/mic_grey_color.png" alt="" width="30px">
+                        
+                    </div>
+                </div>
+                <div class="detail1">
+                    <img src="./Picture/img1.png" alt="" width="240px">
+                    <div class="detail1_infor">
+                        <div class="pic_name">
+                            <span class="fa fa-circle fa-2xs" id="pic_de"> </span>
+                            Deborah Chu
+                        </div>
+                        <img src="./Picture/mic_grey_color.png" alt="" width="30px">
+                        
+                    </div>
+                </div>
+                <div class="detail1">
+                    <img src="./Picture/img.png" alt="" width="240px">
+                    <div class="detail1_infor">
+                        <div class="pic_name">
+                            <span class="fa fa-circle fa-2xs" id="pic_de"> </span>
+                            Jordan Nieves
+                        </div>
+                        <img src="./Picture/mic_grey_color.png" alt="" width="30px">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="cen_action">
+                <img src="./Picture/mic_grey_color.png" alt="" class="img_action">
+                <img src="./Picture/cam_color.png" alt="" class="img_action">
+                <img src="./Picture/speaker_grey_color.png" alt="" class="img_action">
+                <div>
+                    <button id="bt_end">End metting</button>
+                </div>
+                <img src="./Picture/Button 2179.png" alt="" class="img_action">
+                <img src="./Picture/share.png" alt="" class="img_action">
+                <img src="./Picture/3cham.png" alt="" class="img_action">
+                
+            </div>
+        </div>
+        <div class="right1">
+            <div class="participants">
+                <div class="tile">
+                    <h1>Participants</h1>
+                    <div class="par_number">4</div>
+                </div>
+                <button class="bt_add">+ Add</button>
+            </div>
+            <div class="par_detail">
+                <div>
+                    <img src="./Picture/avatar 1322.png" alt="" id="pic_avata1" align="center">
+                    <label for="pic_avata1">Benjamin Crawford</label>
+                </div>
+                <div class="detail_action">
+                    <img src="./Picture/mic1.png" alt="" class="img_de_action">
+                    <img src="./Picture/cam_small.png" alt="" class="img_de_action">
+                    <div class="icon_ellipsis">
+                        <span class="fa-solid fa-ellipsis" id="ellipsis"></span>                    
+                    </div>
+                </div>
+            </div>
+            <div class="par_detail">
+                <div>
+                    <img src="./Picture/avatar 1323.png" alt="" id="pic_avata1" align="center">
+                    <label for="pic_avata1">Christian Scott</label>
+                </div>
+                <div class="detail_action">
+                    <img src="./Picture/mic1.png" alt="" class="img_de_action">
+                    <img src="./Picture/cam_small.png" alt="" class="img_de_action">
+                    <div class="icon_ellipsis">
+                        <span class="fa-solid fa-ellipsis" id="ellipsis"></span>                    
+                    </div>
+                </div>
+            </div>
+            <div class="par_detail">
+                <div>
+                    <img src="./Picture/avatar 1324.png" alt="" id="pic_avata1" align="center">
+                    <label for="pic_avata1">Deborah Chu</label>
+                </div>
+                <div class="detail_action">
+                    <img src="./Picture/mic1.png" alt="" class="img_de_action">
+                    <img src="./Picture/cam_small.png" alt="" class="img_de_action">
+                    <div class="icon_ellipsis">
+                        <span class="fa-solid fa-ellipsis" id="ellipsis"></span>                    
+                    </div>
+                </div>
+            </div>
+            <div class="par_detail">
+                <div>
+                    <img src="./Picture/avatar 1325.png" alt="" id="pic_avata1" align="center">
+                    <label for="pic_avata1">Jordan Nieves</label>
+                </div>
+                <div class="detail_action">
+                    <img src="./Picture/mic1.png" alt="" class="img_de_action">
+                    <img src="./Picture/cam_small.png" alt="" class="img_de_action">
+                    <div class="icon_ellipsis">
+                        <span class="fa-solid fa-ellipsis" id="ellipsis"></span>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right2">
+            <h1>Chat</h1>
+            <div class="chat1">
+                <div>
+                    <img src="./Picture/avatar 1326.png" alt="" id="img_chu" align="center">
+                    <label for="img_chu">
+                        <b>Deborah Chu </b>
+                        <span style="color: gray;">1:12 PM</span>
+                        
+                    </label>
+                </div>
+                <div class="chat_detail">
+                    Lorem excepteur magma voluptate exercition <br>
+                    dolore excepteur emet
+                </div>
+            </div>
+            <div class="chat1">
+                <div>
+                    <img src="./Picture/avatar 1327.png" alt="" id="img_chu" align="center">
+                    <label for="img_chu">
+                        <b>Jordan Nieves</b>
+                        <span style="color: gray;">1:12 PM</span>
+                        
+                    </label>
+                </div>
+                <div class="chat_detail">
+                    Eiusmod labroum culpa est magna cillum sint <br>
+                    in elit proident magna amin consecte
+                </div>
+            </div>
+            <div class="chat1">
+                <div>
+                    <img src="./Picture/avatar 1328.png" alt="" id="img_chu" align="center">
+                    <label for="img_chu">
+                        <b>Benjamin Crawford</b>
+                        <span style="color: gray;">1:12 PM</span>
+                        
+                    </label>
+                </div>
+                <div class="chat_detail1" id="chat_ben">
+                    <img src="./Picture/smile.jpg" alt="" width="40px">
+                    <img src="./Picture/smile.jpg" alt="" width="40px">
+                    <img src="./Picture/smile.jpg" alt="" width="40px">
+                </div>
+            </div>
+            <div class="chat1">
+                <div>
+                    <img src="./Picture/avatar 1329.png" alt="" id="img_chu" align="center">
+                    <label for="img_chu">
+                        <b>Christian Scott </b>
+                        <span style="color: gray;">1:12 PM</span>
+                    </label>
+                    <div class="add_typing">
+                        <input type="text" placeholder="Add typing" id="input">
+                        <div class="icon_smile">
+                            <span class="fa-solid fa-face-smile"></span>
+                        </div>
+                       <div id="img_send">
+                        <img src="./Picture/send.png" alt="" width="50px" >
+                       </div>
+                       
+                        
+                    </div>
+                       
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
