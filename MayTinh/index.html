@@ -54,6 +54,41 @@
             <div class="grid-item" onclick="Calculate()"><button>=</button></div>
         </div>
     </div>
-    
+    <script>
+        let outputScreen = document.getElementById('outputScreen')
+        let oneBtn = document.getElementById('one')
+        let twoBtn = document.getElementById('two')
+        let threeBtn = document.getElementById('three')
+        let fourBtn = document.getElementById('four')
+        let fiveBtn = document.getElementById('five')
+        let sixBtn = document.getElementById('six')
+        let sevenBtn = document.getElementById('seven')
+        let eightBtn = document.getElementById('eight')
+        let nineBtn = document.getElementById('nine')
+        let zeroBtn = document.getElementById('zero')
+        
+
+        function display(num) {
+            outputScreen.value += num
+        }
+
+        function Calculate(){
+            try {
+                outputScreen.value = eval(outputScreen.value)
+            }
+            catch (err) {
+                alert("Invalid")
+            }
+        }
+
+        function Clear() {
+            outputScreen.value = ""
+        }
+
+        function del() {
+            outputScreen.value = outputScreen.value.slice(0,-1)
+        }
+
+    </script>
 </body>
 </html>
